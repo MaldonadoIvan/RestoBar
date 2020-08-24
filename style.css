@@ -1,1 +1,76 @@
 
+
+
+h1{
+  font-family: 'Kremlin';
+  color: white;
+  background-color: black;
+  font-weight: normal;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #EE5A0B;
+  margin:0;
+}
+
+.menu {             /* Todos los class="menu" */
+  width:100%;
+  background: black;
+  list-style:none;  /* Borra los puntitos de las listas */
+  padding:0;
+  margin:0;
+}
+
+.menu li {
+  display:inline-block;  /*pone todos los li uno al lado del otro*/
+}
+
+.menu li a {
+  padding:10px 20px;     /*agrego espacio entre los a*/
+  display:inline-block; /*los elementos a, son elementos en linea y deben ser convertidos a bloque para agrandar la altura*/
+  color: white;
+}
+
+.menu li a:hover {
+  background:#ccc;
+  color:black;
+}
+
+ul li{
+  padding:10px 20px; 
+  display:inline-block;
+}
+
+table tr td{
+  padding:20;
+  margin:0;
+  color: white;
+}
+
+/*
+Margin es el margen que hay desde un elemento hasta los que tenga al lado.
+Padding es el espacio que hay en un contenedor entre el contenido y los bordes del contenedor.
+*/
+
+body{
+  background-image: url(images/Fondo.jpg);
+}
+
+ul{
+  background-color: black;
+}
+
+ul a{
+  color: white;
+}
+
+#banner{
+    width:100%;
+}
+
+#background-table{
+    margin: 0;
+    padding: 0;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
